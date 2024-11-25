@@ -1,12 +1,3 @@
-// Change Text
-function changeText() {
-  const mainText = document.getElementById("main-text");
-  mainText.textContent = "I am a Frontend Developer";
-}
-
-document.getElementById("textbtn").addEventListener("click", changeText);
-
-// Background Color
 function randomColor() {
   const letters = "0123456789ABCDEF";
   let color = "#";
